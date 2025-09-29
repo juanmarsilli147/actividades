@@ -18,6 +18,7 @@ function App() {
       correo="robertogmail.com"
       edad={20}
       enLinea={true}/>
+      
       <TarjetaUsuario
       nombre="Alberto"
       correo="albertogmail.com"
@@ -35,6 +36,7 @@ function App() {
       price={2000000}
       discount={15}
       category="PC"/>
+
       <Producto
       name="Teclado"
       price={40000}
