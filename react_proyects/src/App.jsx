@@ -1,6 +1,6 @@
-import './App.css'
+import Producto from '../components/Producto';
 import TaskList from '../components/TaskList'
-import TarjetaUsuario from "./TarjetaUsuario";
+import TarjetaUsuario from './TarjetaUsuario'
 
 function App() {
   const tareas = [
@@ -12,7 +12,34 @@ function App() {
 
   return (
     <>
+      <h1>Ejercicio 1</h1>
+      <TarjetaUsuario
+      nombre="Roberto"
+      correo="robertogmail.com"
+      edad={20}
+      enLinea={true}/>
+      <TarjetaUsuario
+      nombre="Alberto"
+      correo="albertogmail.com"
+      edad={50}
+      enLinea={false}/>
+
+
+      <h1>Ejercicio 2</h1>
       <TaskList tasks={tareas}/>
+
+
+      <h1>Ejercicio 3</h1>
+      <Producto
+      name="RTX 5090"
+      price={2000000}
+      discount={15}
+      category="PC"/>
+      <Producto
+      name="Teclado"
+      price={40000}
+      discount={7}
+      category="Perifericos"/>
     </>
   )
 
