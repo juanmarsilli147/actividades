@@ -1,4 +1,3 @@
-import "./MisComponentes.css";
 
 function TarjetaUsuario({ nombre, correo, edad, enLinea }) {
   return (

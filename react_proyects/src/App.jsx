@@ -1,6 +1,7 @@
 import Producto from '../components/Producto';
 import TaskList from '../components/TaskList'
 import TarjetaUsuario from '../components/TarjetaUsuario'
+import "./MisComponentes.css"
 
 function App() {
   const tareas = [
