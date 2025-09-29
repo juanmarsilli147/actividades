@@ -1,6 +1,6 @@
 import Producto from '../components/Producto';
 import TaskList from '../components/TaskList'
-import TarjetaUsuario from './TarjetaUsuario'
+import TarjetaUsuario from '../components/TarjetaUsuario'
 
 function App() {
   const tareas = [
@@ -18,7 +18,7 @@ function App() {
       correo="robertogmail.com"
       edad={20}
       enLinea={true}/>
-      
+
       <TarjetaUsuario
       nombre="Alberto"
       correo="albertogmail.com"
