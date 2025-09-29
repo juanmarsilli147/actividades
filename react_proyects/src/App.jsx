@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import TarjetaUsuario from "./TarjetaUsuario";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -28,8 +29,24 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+
+      <h1>Usuarios</h1>
+
+      <TarjetaUsuario
+        nombre="María López"
+        correo="maria@example.com"
+        edad={28}
+        enLinea={true}
+      />
+
+      <TarjetaUsuario
+        nombre="Carlos Pérez"
+        correo="carlos@example.com"
+        edad={35}
+        enLinea={false}
+      />
     </>
   )
 }
 
-export default App
+export default App;
