@@ -1,6 +1,5 @@
-import './MisComponentes.css'
+import './App.css'
 import TaskList from '../components/TaskList'
-import Producto from '../components/Producto'
 
 function App() {
   const tareas = [
@@ -12,17 +11,9 @@ function App() {
 
   return (
     <>
-      <h1>Ejercicio 2</h1>
       <TaskList tasks={tareas}/>
-      <h1>Ejercicio 3</h1>
-      <Producto
-        name="Zapatillas Nike"
-        price={12000}
-        discount={20}
-        category="Calzado"
-      />
     </>
   )
 }
 
-export default App
+export default App;
