@@ -1,14 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+<<<<<<< HEAD
 import TarjetaUsuario from "./TarjetaUsuario";
+=======
+import TaskList from '../components/TaskList'
+>>>>>>> 95975ea217849967e1f9fafbd240d04a9d4b11b8
 
 function App() {
-  const [count, setCount] = useState(0)
+  const tareas = [
+    { id: 1, title:"aprender express", completed:true },
+    { id: 2, title:"aprender react", completed:true },
+    { id: 3, title:"aprender react avanzado", completed:false },
+    { id: 3, title:"aprender base de datos no relacionales", completed:false }
+  ]
 
   return (
     <>
+<<<<<<< HEAD
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -45,6 +52,9 @@ function App() {
         edad={35}
         enLinea={false}
       />
+=======
+      <TaskList tasks={tareas}/>
+>>>>>>> 95975ea217849967e1f9fafbd240d04a9d4b11b8
     </>
   )
 }
