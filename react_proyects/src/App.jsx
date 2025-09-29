@@ -45,6 +45,29 @@ function App() {
       category="Perifericos"/>
     </>
   )
+
+  return (
+    <div>
+      <h1>Usuarios</h1>
+
+      <TarjetaUsuario
+        nombre="María López"
+        correo="maria@example.com"
+        edad={28}
+        enLinea={true}
+      />
+
+      <TarjetaUsuario
+        nombre="Carlos Pérez"
+        correo="carlos@example.com"
+        edad={35}
+        enLinea={false}
+      />
+    </div>
+  );
 }
 
 export default App;
+
+
+
